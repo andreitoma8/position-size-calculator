@@ -32,10 +32,10 @@ export default function BasicModal() {
             >
                 <Box sx={style}>
                     <Typography variant="h5">
-                        Input your:
+                        Input:
                     </Typography>
                     <Typography >
-                        1. Account size
+                        1. Your Account size
                     </Typography>
                     <Typography >
                         2. The % of your account you are ready to risk for the trade
