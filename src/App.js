@@ -43,7 +43,7 @@ function App() {
 
   return (
     <ThemeProvider theme={darkTheme}>
-      <Paper style={{ height: "200vh" }}>
+      <Paper style={{ height: "130vh" }}>
         <Container>
           <Box sx={{ display: "flex", justifyContent: "right" }}>
             <Typography marginTop={1}> Light </Typography>
