@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
@@ -10,19 +10,16 @@ import PositionSizeCalculator from './components/positionSizeCalculator';
 import BasicModal from "./components/modal"
 // Theme
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-// Helpers
-import { isPersistedState } from "./helpers"
 
 
 function App() {
 
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(getDefaultTheme());
 
-  const localTheme = isPersistedState("theme")
-
-  useEffect(() => {
-    setDarkMode(!localTheme)
-  }, [localTheme])
+  function getDefaultTheme() {
+    const selectedTheme = JSON.parse(localStorage.getItem('darkTheme'))
+    return selectedTheme || false
+  }
 
   const darkTheme = createTheme({
     palette: {
@@ -37,7 +34,7 @@ function App() {
 
   const handleThemeChange = () => {
     setDarkMode(!darkMode)
-    localStorage.setItem("theme", JSON.stringify(darkMode))
+    localStorage.setItem("darkTheme", JSON.stringify(!darkMode))
   }
 
 
