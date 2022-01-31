@@ -136,7 +136,7 @@ const PositionSizeCalculator = () => {
                 alignItems="center"
                 marginBottom={2}>
                 <Typography variant="h3" gutterBottom component="p" color={"primary"}>
-                    {positionSize}$
+                    {parseInt(positionSize)}$
                 </Typography>
             </Box>
         </Paper>
