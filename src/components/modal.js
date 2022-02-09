@@ -41,7 +41,7 @@ export default function BasicModal() {
                         2. The % of your account you are ready to risk for the trade
                     </Typography>
                     <Typography >
-                        3. The levrage you use (slider is set at 1 or default, witch means no levrage)
+                        3. The leverage you use (slider is set at 1 or default, witch means no levrage)
                     </Typography>
                     <Typography >
                         4. Your StopLoss for the Trade as a %

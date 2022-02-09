@@ -84,7 +84,7 @@ const PositionSizeCalculator = () => {
                 alignItems="center"
                 marginTop={2}>
                 <Typography variant="h4" gutterBottom component="p">
-                    Levrage:
+                    Leverage:
                 </Typography>
             </Box>
             <Box display="flex"
