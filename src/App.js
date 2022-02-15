@@ -40,7 +40,7 @@ function App() {
 
   return (
     <ThemeProvider theme={darkTheme}>
-      <Paper style={{ height: "130vh" }}>
+      <Paper style={{ minHeight: "100vh" }}>
         <Container>
           <Box sx={{ display: "flex", justifyContent: "right" }}>
             <Typography marginTop={1}> Light </Typography>
@@ -50,7 +50,7 @@ function App() {
           <Box display="flex"
             justifyContent="center"
             alignItems="center">
-            <Typography variant="h2" component="h1" gutterBottom marginTop={3} color={"primary"}>
+            <Typography variant="h2" component="h1" gutterBottom marginTop={3} color={"primary"} marginX="5%" textAlign="center">
               Position Size Calculator
             </Typography>
           </Box>

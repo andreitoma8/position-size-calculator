@@ -51,8 +51,9 @@ const PositionSizeCalculator = () => {
             </Box>
             <Box display="flex"
                 justifyContent="center"
-                alignItems="center">
-                <Typography variant="h4" gutterBottom component="p">
+                alignItems="center"
+                marginX="20%">
+                <Typography variant="h4" gutterBottom component="p" textAlign="center">
                     Risk as % of the account:
                 </Typography>
             </Box>
@@ -66,7 +67,7 @@ const PositionSizeCalculator = () => {
             <Box display="flex"
                 justifyContent="center"
                 alignItems="center"
-                marginX={40}>
+                marginX="28%">
                 <Slider
 
                     defaultValue={2.5}
@@ -98,7 +99,7 @@ const PositionSizeCalculator = () => {
             <Box display="flex"
                 justifyContent="center"
                 alignItems="center"
-                marginX={40}>
+                marginX="28%">
                 <Slider
 
                     defaultValue={1}
@@ -114,7 +115,7 @@ const PositionSizeCalculator = () => {
             <Box display="flex"
                 justifyContent="center"
                 alignItems="center">
-                <Typography variant="h4" gutterBottom component="p">
+                <Typography variant="h4" gutterBottom component="p" marginX="20%" textAlign="center">
                     Stop loss as % from entry
                 </Typography>
             </Box>
