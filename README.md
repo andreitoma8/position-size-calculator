@@ -9,5 +9,3 @@ Input your:
 4. Your StopLoss for the Trade as a %
 
 The calculator will give you your position size for the Trade.
-
-**This is my first website created without following a course. I even added a light and dark mode, hope you'll like it!
